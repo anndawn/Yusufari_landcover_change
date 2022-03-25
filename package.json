@@ -1,0 +1,14 @@
+{
+  "name": "land_cover",
+  "version": "1.0.0",
+  "description": "landcover change of Yusufari from 1984 to 2021",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@antv/g2plot": "^2.4.12"
+  }
+}
