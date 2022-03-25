@@ -15,7 +15,8 @@ const area = new Area('container', {
   isPercent: true,
   isStack: true,
   legend:{
-  flipPage:false,
+  flipPage:true,
+  maxRow:3,
    marker:{
    style:{
      fillOpacity:1

@@ -114753,7 +114753,8 @@ var area = new _g2plot.Area('container', {
   isPercent: true,
   isStack: true,
   legend: {
-    flipPage: false,
+    flipPage: true,
+    maxRow: 3,
     marker: {
       style: {
         fillOpacity: 1
