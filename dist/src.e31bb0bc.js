@@ -114637,7 +114637,7 @@ var data = [{
   "value": 321
 }, {
   "year": 1984,
-  "type ": "Build-up areas (Settlements)",
+  "type ": "Settlements",
   "value": 30
 }, {
   "year": 1984,
@@ -114661,7 +114661,7 @@ var data = [{
   "value": 401
 }, {
   "year": 1991,
-  "type ": "Build-up areas (Settlements)",
+  "type ": "Settlements",
   "value": 40
 }, {
   "year": 1991,
@@ -114685,7 +114685,7 @@ var data = [{
   "value": 130
 }, {
   "year": 2001,
-  "type ": "Build-up areas (Settlements)",
+  "type ": "Settlements",
   "value": 42
 }, {
   "year": 2001,
@@ -114709,7 +114709,7 @@ var data = [{
   "value": 51
 }, {
   "year": 2011,
-  "type ": "Build-up areas (Settlements)",
+  "type ": "Settlements",
   "value": 275
 }, {
   "year": 2011,
@@ -114733,7 +114733,7 @@ var data = [{
   "value": 205
 }, {
   "year": 2021,
-  "type ": "Build-up areas (Settlements)",
+  "type ": "Settlements",
   "value": 225
 }, {
   "year": 2021,
@@ -114798,7 +114798,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "34147" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "46361" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
